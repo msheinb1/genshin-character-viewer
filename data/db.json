@@ -1,0 +1,253 @@
+{
+    "characters": [
+        {
+            "id": "ayato",
+            "name": "Ayato Kamisato",
+            "rarity": 5,
+            "element": "hydro",
+            "level": "90/90",
+            "constellation": null,
+            "stats": {
+                "hp": "19,855",
+                "atk": "2,088",
+                "def": "908",
+                "elemental_mastery": "37",
+                "friendship": "10",
+
+                "hp_details": "13,715 + 6,139",
+                "atk_details": "907 + 1,181",
+                "def_details": "769 + 139",
+                "crit_rate": "79.7%",
+                "crit_dmg": "210.4%",
+                "energy_recharge": "120.7%",
+                "main_damage_type": "hydro",
+                "elemental_damage": "58.6%"
+                },
+            "talents": [
+                {
+                    "name": "Kamisato Art: Marobashi",
+                    "icon": "hydro_sword_na.png",
+                    "level": 10
+                },
+                {
+                    "name": "Kamisato Art: Kyouka",
+                    "icon": "kyouka.png",
+                    "level": 10
+                },
+                {
+                    "name": "Kamisato Art: Suiyuu",
+                    "icon": "suiyuu.png",
+                    "level": 10
+                },
+                {
+                    "name": "Kamisato Art: Mine Wo Matoishi Kiyotaki",
+                    "icon": "mine_wo_matoishi_kiyotaki.png",
+                    "level": 1
+                },
+                {
+                    "name": "Kamisato Art: Michiyuku Hagetsu",
+                    "icon": "michiyuku_hagetsu.png",
+                    "level": 1
+                },
+                {
+                    "name": "Kamisato Art: Daily Cooking",
+                    "icon": "daily_cooking.png",
+                    "level": 1
+                }
+            ],
+            "weapon": {
+                "name": "Haran Geppatsu Futsu",
+                "image": "haran_2nd.png",
+                "rarity": 5,
+                "refine": 1,
+                "level": "90/90",
+                "attack": "608",
+                "second_stat": "Crit Rate",
+                "second_stat_icon": "critical_rate.png",
+                "second_stat_value": "33.1%"
+            },
+            "artifacts": [
+                {
+                    "id": "flower",
+                    "image": "EoO_flower.png",
+                    "rarity": 5,
+                    "level": 20,
+                    "stats": [
+                        {
+                            "name": "HP",
+                            "icon": "health.png",
+                            "value": "4,780"
+                        },
+                        {
+                            "name": "Crit Rate",
+                            "icon": "critical_rate.png",
+                            "value": "3.9%"
+                        },
+                        {
+                            "name": "ATK",
+                            "icon": "attack.png",
+                            "value": "15.7%"
+                        },
+                        {
+                            "name": "Crit DMG",
+                            "icon": "critical_damage.png",
+                            "value": "14.8%"
+                        },
+                        {
+                            "name": "ATK",
+                            "icon": "attack.png",
+                            "value": "33"
+                        }
+                    ]
+                },
+                {
+                    "id": "feather",
+                    "image": "EoO_feather.png",
+                    "rarity": 5,
+                    "level": 20,
+                    "stats": [
+                        {
+                            "name": "ATK",
+                            "icon": "attack.png",
+                            "value": "311"
+                        },
+                        {
+                            "name": "HP",
+                            "icon": "health.png",
+                            "value": "5.3%"
+                        },
+                        {
+                            "name": "Crit DMG",
+                            "icon": "critical_damage.png",
+                            "value": "15.7%"
+                        },
+                        {
+                            "name": "DEF",
+                            "icon": "defense.png",
+                            "value": "12.4%"
+                        },
+                        {
+                            "name": "Energy Recharge",
+                            "icon": "energy_recharge.png",
+                            "value": "16.2%"
+                        }
+                    ]
+                },
+                {
+                    "id": "sands",
+                    "image": "EoO_sands.png",
+                    "rarity": 5,
+                    "level": 20,
+                    "stats": [
+                        {
+                            "name": "ATK",
+                            "icon": "attack.png",
+                            "value": "46.6%"
+                        },
+                        {
+                            "name": "Crit Rate",
+                            "icon": "critical_rate.png",
+                            "value": "3.5%"
+                        },
+                        {
+                            "name": "ATK",
+                            "icon": "attack.png",
+                            "value": "31"
+                        },
+                        {
+                            "name": "Crit DMG",
+                            "icon": "critical_damage.png",
+                            "value": "25.6%"
+                        },
+                        {
+                            "name": "DEF",
+                            "icon": "defense.png",
+                            "value": "23"
+                        }
+                    ]
+                },
+                {
+                    "id": "goblet",
+                    "image": "EoO_goblet.png",
+                    "rarity": 5,
+                    "level": 20,
+                    "stats": [
+                        {
+                            "name": "Hydro DMG Bonus",
+                            "icon": "hydro_icon.png",
+                            "value": "46.6%"
+                        },
+                        {
+                            "name": "HP",
+                            "icon": "health.png",
+                            "value": "4.7%"
+                        },
+                        {
+                            "name": "Energy Recharge",
+                            "icon": "energy_recharge.png",
+                            "value": "4.5%"
+                        },
+                        {
+                            "name": "Crit Rate",
+                            "icon": "critical_rate.png",
+                            "value": "17.1%"
+                        },
+                        {
+                            "name": "Elemental Mastery",
+                            "icon": "elemental_mastery.png",
+                            "value": "37"
+                        }
+                    ]
+                },
+                {
+                    "id": "circlet",
+                    "image": "SR_circlet.png",
+                    "rarity": 5,
+                    "level": 20,
+                    "stats": [
+                        {
+                            "name": "Crit DMG",
+                            "icon": "critical_damage.png",
+                            "value": "62.2%"
+                        },
+                        {
+                            "name": "ATK",
+                            "icon": "attack.png",
+                            "value": "4.7%"
+                        },
+                        {
+                            "name": "Crit Rate",
+                            "icon": "critical_rate.png",
+                            "value": "17.1%"
+                        },
+                        {
+                            "name": "ATK",
+                            "icon": "attack.png",
+                            "value": "35"
+                        },
+                        {
+                            "name": "DEF",
+                            "icon": "defense.png",
+                            "value": "21"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "zhongli"
+        },
+        {
+            "id": "kazuha"
+        },
+        {
+            "id": "itto"
+        },
+        {
+            "id": "raiden"
+        },
+        {
+            "id": "xiao"
+        }
+    ]
+}

@@ -1,0 +1,234 @@
+{
+    "id": "chara",
+    "name": "Chara",
+    "rarity": 5,
+    "element": "element",
+    "level": "#/#",
+    "constellation": null,
+    "stats": {
+        "hp": "##,###",
+        "atk": "#,###",
+        "def": "###",
+        "elemental_mastery": "##",
+        "friendship": "10",
+
+        "hp_details": "##,###",
+        "atk_Details": "#,###",
+        "def_details": "###",
+        "crit_rate": "##.#%",
+        "crit_dmg": "###.#%",
+        "energy_recharge": "###.#%",
+        "main_damage_type": "gobletDmg",
+        "elemental_damage": "##.#%"
+        },
+    "talents": [
+        {
+            "name": "Normal Attack",
+            "icon": "[elementWeapon]NA.png",
+            "level": 10
+        },
+        {
+            "name": "Elemental Skill",
+            "icon": "elementalSkill.png",
+            "level": 10
+        },
+        {
+            "name": "Elemental Burst",
+            "icon": "elementalBurst.png",
+            "level": 10
+        },
+        {
+            "name": "A1 Passive",
+            "icon": "a1Passive.png",
+            "level": 1
+        },
+        {
+            "name": "A4 Passive",
+            "icon": "a4Passive.png",
+            "level": 1
+        },
+        {
+            "name": "A0 Passive",
+            "icon": "a0Passive.png",
+            "level": 1
+        }
+    ],
+    "weapon": {
+        "name": "Weapon Name",
+        "image": "weapon.png",
+        "rarity": 5,
+        "refine": 1,
+        "level": "##/##",
+        "attack": "###",
+        "second_stat": "Second Stat",
+        "second_stat_icon": "icon.png",
+        "second_stat_value": "##.#%"
+    },
+    "artifacts": [
+        {
+            "id": "flower",
+            "image": "ARTIFACTSET_Flower.png",
+            "rarity": 5,
+            "level": 20,
+            "stats": [
+                {
+                    "name": "Stat Name",
+                    "icon": "icon.png",
+                    "value": "####"
+                },
+                {
+                    "name": "Stat Name",
+                    "icon": "icon.png",
+                    "value": "####"
+                },
+                {
+                    "name": "Stat Name",
+                    "icon": "icon.png",
+                    "value": "####"
+                },
+                {
+                    "name": "Stat Name",
+                    "icon": "icon.png",
+                    "value": "####"
+                },
+                {
+                    "name": "Stat Name",
+                    "icon": "icon.png",
+                    "value": "####"
+                }
+            ]
+        },
+        {
+            "id": "feather",
+            "image": "ARTIFACTSET_Feather.png",
+            "rarity": 5,
+            "level": 20,
+            "stats": [
+                {
+                    "name": "Stat Name",
+                    "icon": "icon.png",
+                    "value": "####"
+                },
+                {
+                    "name": "Stat Name",
+                    "icon": "icon.png",
+                    "value": "####"
+                },
+                {
+                    "name": "Stat Name",
+                    "icon": "icon.png",
+                    "value": "####"
+                },
+                {
+                    "name": "Stat Name",
+                    "icon": "icon.png",
+                    "value": "####"
+                },
+                {
+                    "name": "Stat Name",
+                    "icon": "icon.png",
+                    "value": "####"
+                }
+            ]
+        },
+        {
+            "id": "sands",
+            "image": "ARTIFACTSET_Sands.png",
+            "rarity": 5,
+            "level": 20,
+            "stats": [
+                {
+                    "name": "Stat Name",
+                    "icon": "icon.png",
+                    "value": "####"
+                },
+                {
+                    "name": "Stat Name",
+                    "icon": "icon.png",
+                    "value": "####"
+                },
+                {
+                    "name": "Stat Name",
+                    "icon": "icon.png",
+                    "value": "####"
+                },
+                {
+                    "name": "Stat Name",
+                    "icon": "icon.png",
+                    "value": "####"
+                },
+                {
+                    "name": "Stat Name",
+                    "icon": "icon.png",
+                    "value": "####"
+                }
+            ]
+        },
+        {
+            "id": "goblet",
+            "image": "ARTIFACTSET_Goblet.png",
+            "rarity": 5,
+            "level": 20,
+            "stats": [
+                {
+                    "name": "Stat Name",
+                    "icon": "icon.png",
+                    "value": "####"
+                },
+                {
+                    "name": "Stat Name",
+                    "icon": "icon.png",
+                    "value": "####"
+                },
+                {
+                    "name": "Stat Name",
+                    "icon": "icon.png",
+                    "value": "####"
+                },
+                {
+                    "name": "Stat Name",
+                    "icon": "icon.png",
+                    "value": "####"
+                },
+                {
+                    "name": "Stat Name",
+                    "icon": "icon.png",
+                    "value": "####"
+                }
+            ]
+        },
+        {
+            "id": "circlet",
+            "image": "ARTIFACTSET_Circlet.png",
+            "rarity": 5,
+            "level": 20,
+            "stats": [
+                {
+                    "name": "Stat Name",
+                    "icon": "icon.png",
+                    "value": "####"
+                },
+                {
+                    "name": "Stat Name",
+                    "icon": "icon.png",
+                    "value": "####"
+                },
+                {
+                    "name": "Stat Name",
+                    "icon": "icon.png",
+                    "value": "####"
+                },
+                {
+                    "name": "Stat Name",
+                    "icon": "icon.png",
+                    "value": "####"
+                },
+                {
+                    "name": "Stat Name",
+                    "icon": "icon.png",
+                    "value": "####"
+                }
+            ]
+        }
+    ]
+}
