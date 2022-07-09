@@ -18,10 +18,15 @@
                 <img class="background" :src="require('../assets/misc/background_item_' + character.weapon.rarity + '_star.png')">
                 <img class="weapon_image" :src="require('../assets/weapons/' + character.weapon.image)">
                 </div>
-                <div class="top_pill">{{character.weapon.name}}, R{{character.weapon.refine}}</div>
+                <div class="pill">{{character.weapon.name}}, R{{character.weapon.refine}}</div>
                 <div class="pill">{{character.weapon.level}}</div>
                 <div class="pill">Attack: {{character.weapon.attack}}</div>
                 <div class="pill"><img class="secondary_icon" :src="require('../assets/stats/' + character.weapon.second_stat_icon)"> <span class="icon_value">{{character.weapon.second_stat}} = {{character.weapon.second_stat_value}}</span></div>
+            </div>
+            <div v-if="character.stats" class="detailed_stats">
+                <div v-for="stat in character.stats_test" :key="character.stats_test">
+                    <img class="stat_icon" :src="require('../assets/stats/' + stat.icon)"> - {{stat.name}} - {{stat.value}}
+                </div>
             </div>
         </div>
         <div v-if="character.artifacts" class="artifacts">
@@ -74,6 +79,12 @@ export default {
     height: var(--content_height);
 }
 
+.details_box .element {
+    width: 200px;
+    height: auto;
+}
+
+/*Center bar*/
 .details_box .stats {
     position: absolute;
     background: orange;
@@ -83,10 +94,13 @@ export default {
     overflow: hide;
 }
 
+/*Weapon Section*/
+.weapon {
+    border: 1px solid red;
+    padding: 1.5em;
+}
 .weapon .image_box {
     position: relative;
-    left: 1.5em;
-    top: 1.5em;
 }
 
 .weapon .background {
@@ -100,8 +114,8 @@ export default {
 
 .weapon .weapon_image {
     position: absolute;
-    left: 0;
-    top: 0;
+    left: 0px;
+    top: 0px;
     z-index: 2;
     max-width: var(--weapon_size);
     height: auto;
@@ -109,39 +123,36 @@ export default {
 }
 
 .weapon .secondary_icon {
-    float: left;
+    position: relative;
+    top: 1px;
     height: 1.5em;
     border: 1px solid red;
 }
 
 .weapon .icon_value {
     border: 1px solid blue;
-}
-
-.weapon .top_pill {
-    display: inline-block;
-    width: calc(100% - var(--weapon_size) - 5em);
-    background: pink;
-    height: 1.75em;
-    line-height: 1.75em;
-    border-radius: 8px;
-    margin-top: 1.5em;
+    text-align: center;
 }
 
 .weapon .pill {
-    display: inline-block;
-    width: calc(100% - var(--weapon_size) - 5em);
+    display: flex;
+    justify-content: center;
+    width: calc(100% - var(--weapon_size) - 3em);
     background: pink;
     height: 1.75em;
     line-height: 1.75em;
     border-radius: 8px;
-    margin-top: 1em;
+    margin: 0em auto 1em;
 }
 
-.details_box .element {
-    width: 200px;
-    height: auto;
-}
+ /*Detailed Stats Section*/
+ .detailed_stats {
+    position: relative;
+ }
+ .detailed_stats .stat_icon {
+    position: absolute;
+    left: 0px;
+ }
 
 /*Make it responsive ig: https://www.w3schools.com/css/css3_flexbox_responsive.asp */
 /*artifacts bar*/

@@ -7,6 +7,13 @@
             "element": "hydro",
             "level": "90/90",
             "constellation": null,
+            "stats_test": [
+                {
+                    "name": "HP",
+                    "icon": "health.png",
+                    "value":"19,855"
+                }
+            ],
             "stats": {
                 "hp": "19,855",
                 "atk": "2,088",
@@ -62,7 +69,7 @@
                 "refine": 1,
                 "level": "90/90",
                 "attack": "608",
-                "second_stat": "Crit Rate",
+                "second_stat": "Attack",
                 "second_stat_icon": "critical_rate.png",
                 "second_stat_value": "33.1%"
             },
